@@ -1,5 +1,6 @@
 body {font-family: 'Roboto', sans-serif;
-
+    color: #434455;
+    background-color:  #FFFFFF;
 }
 :root{
     --main-text-color:#2E2F42;
@@ -24,7 +25,21 @@ body {font-family: 'Roboto', sans-serif;
 }
 .header-nav {
 }
-.header-logo {
+.word-part{
+    color: var(--main-text-color);
+}
+.header-logo{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+text-decoration: none;
+
 }
 .header-images {
 }
@@ -147,6 +162,19 @@ color:#404BBF;
     background-color: var(--main-text-color);
 }
 .footer-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+text-decoration: none;
+}
+.word-part-footer{
+color: #F4F4FD;
 }
 .footer-text {
     color: var(--third-text-color);
