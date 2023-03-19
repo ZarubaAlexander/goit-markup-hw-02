@@ -29,7 +29,7 @@ body {font-family: 'Roboto', sans-serif;
 .header-nav {
 }
 .word-part{
-    color: var(--main-text-color);
+    color: #2E2F42;
 }
 .header-logo{
 font-family: 'Raleway', sans-serif;
@@ -63,18 +63,20 @@ color: #4D5AE5;
 .header-address {
 }
 .header-contacts {
+font-style: normal
 }
 .header-type-contact {
 }
 .header-mail:focus,
-.header-mail:hover{color: :#404bbf;}
+.header-mail:hover{
+    color:#404bbf;}
 .header-mail {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
-   color: var(--second-text-color);
+   color: #434455;;
 }
 .header-tel:focus,
 .header-tel:hover{
@@ -86,11 +88,11 @@ color: #4D5AE5;
     letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
-    color: var(--second-text-color);
+    color: #434455;;
 }
 /**---------------FIRST SECTION--------------**/
 .section {
-    background-color: var(--main-text-color);
+    background-color: #2E2F42;
 }
 .caption-section {
     font-size: 56px;
@@ -125,30 +127,34 @@ background-color: #404BBF
 .advantage-paragraph {
 }
 .advantage-name {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    font-style: normal;
-    font-weight: 500;
-    color: #2e2f42;
+    color: #2E2F42;
+
 }
     .advantage-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+        
 }
 /**---------------SECTION DO--------------**/
 .section-do {
 }
 .section-what-do {
     font-size: 36px;
-    letter-spacing: 0.02em 
     line-height: 1.11;
     text-align: center;
-   
+    letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--main-text-color);
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+    
 }
 .section-do-list {
 }
@@ -156,7 +162,7 @@ background-color: #404BBF
 }
 /**---------------SECTION TEAM--------------**/
 .section-team {
-   background-color:#FFFFFF;
+   background-color:#F4F4FD ;
 }
 .our-team {
     font-size: 36px;
@@ -164,25 +170,27 @@ background-color: #404BBF
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--main-text-color);
+    color: #2E2F42;
 }
 .our-team-list {
-background-color: #FFFFFF 
+background-color: #F4F4FD; 
 }
 .our-team-part {
+    background-color: #FFFFFF;
 }
 .our-team-name {
     font-weight: 500;
     text-align: center;
-    color: var(--main-text-color)
+    color: #2E2F42;
 }
 .our-team-work {
     text-align: center;
-    color: var(--second-text-color);
+    color: #434455;
 }
 /**---------------FOOTER--------------**/
 .footer{
-    background-color: var(--main-text-color);
+    background-color: #2E2F42;
+    
 }
 .footer-logo {
 font-family: 'Raleway', sans-serif;
@@ -199,7 +207,7 @@ color: #4D5AE5;
 color: #F4F4FD;
 }
 .footer-text {
-    color: var(--third-text-color);
+    color: #F4F4FD
 }
 /**---------------BTN PORTFOLIO--------------**/
 .section-buttons {
@@ -231,10 +239,7 @@ background-color: #F4F4FD;
     background-color: #404BBF;
 
 }
-/**---------------INTERFACE PORTFOLIO--------------**/
-.interface{
 
-}
 .interface-list {
 }
 .item {
