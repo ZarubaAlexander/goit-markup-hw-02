@@ -190,7 +190,7 @@ background-color: #F4F4FD;
 /**---------------FOOTER--------------**/
 .footer{
     background-color: #2E2F42;
-    
+    text-decoration: none;
 }
 .footer-logo {
 font-family: 'Raleway', sans-serif;
@@ -244,17 +244,19 @@ background-color: #F4F4FD;
 }
 .item {
 }
-.name {
+.name-item-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #2E2F42;
 }
 
-.text {
+.text-item-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+   text-decoration: none;
     color: #434455;
 }
