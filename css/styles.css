@@ -240,23 +240,20 @@ background-color: #F4F4FD;
 
 }
 
-.interface-list {
+.portfolio-links {
 }
-.item {
+.link-head-text {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #2E2F42;
 }
-.name-item-list {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #2E2F42;
-}
-
-.text-item-list {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-   text-decoration: none;
-    color: #434455;
+.link-text-par {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #434455;
 }
