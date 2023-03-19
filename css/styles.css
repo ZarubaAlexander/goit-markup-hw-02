@@ -8,8 +8,11 @@ body {font-family: 'Roboto', sans-serif;
     --third-text-color:#F4F4FD
 }
 .link{
-    text-decoration: none;
+    text-decoration: none;  
 }
+.list{
+    list-style: none;    
+    }
 .text-all{
     font-size: 16px;
     line-height: 1.5;
@@ -29,7 +32,7 @@ body {font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
 }
 .header-logo{
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -38,19 +41,22 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-text-decoration: none;
+
 
 }
 .header-images {
 }
 .header-link:focus,
 .header-link:hover{
-   color: #4D5AE5;
+   color: #404bbf;
 
 }
 .header-link {
     font-weight: 500;
-    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 .header-item {
 }
@@ -61,7 +67,7 @@ text-decoration: none;
 .header-type-contact {
 }
 .header-mail:focus,
-.header-mail:hover{color: #4D5AE5;}
+.header-mail:hover{color:  #404bbfE5;}
 .header-mail {
     font-style: normal;
     font-weight: 400;
@@ -90,9 +96,10 @@ text-decoration: none;
 .section-button:focus,
 .section-button:hover{
 color:#404BBF;
+background-color: #404BBF
 }
 .section-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -102,6 +109,7 @@ color:#404BBF;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    background-color: #4D5AE5;
 }
 /**---------------SECTION ADVANTAGES--------------**/
 .section-advantages {
@@ -111,12 +119,18 @@ color:#404BBF;
 .advantage-paragraph {
 }
 .advantage-name {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 500;
-    color: var(--main-text-color);
+    color: #2e2f42;
 }
     .advantage-text {
-    color: var(--second-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /**---------------SECTION DO--------------**/
 .section-do {
@@ -135,6 +149,7 @@ color:#404BBF;
 }
 /**---------------SECTION TEAM--------------**/
 .section-team {
+   background-color:#F4F4FD;
 }
 .our-team {
     font-size: 36px;
@@ -145,6 +160,7 @@ color:#404BBF;
     color: var(--main-text-color);
 }
 .our-team-list {
+background-color: #FFFFFF 
 }
 .our-team-part {
 }
@@ -162,7 +178,7 @@ color:#404BBF;
     background-color: var(--main-text-color);
 }
 .footer-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -171,7 +187,6 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-text-decoration: none;
 }
 .word-part-footer{
 color: #F4F4FD;
@@ -187,7 +202,7 @@ color: #F4F4FD;
 .button-type {
 }
 .button-view {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -216,23 +231,14 @@ color: #F4F4FD;
 .interface-text {
     color: var(--second-text-color);
 }
-/**---------------CAR PORTFOLIO--------------**/
-.section-car {
-}
-.car-list {
-}
-.car-item {
+.car-item{
+
 }
 .car-name {
     color: var(--main-text-color);
 }
 .car-text {
     color: var(--second-text-color);
-}
-/**---------------INST PORTFOLIO--------------**/
-.section-inst {
-}
-.inst-list {
 }
 .inst-item {
 }
