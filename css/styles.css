@@ -239,8 +239,15 @@ background-color: #F4F4FD;
     background-color: #404BBF;
 
 }
+.board{
+    text-decoration: none;  
+}
+.board-item{
+    text-decoration: none;
+}
 
 .portfolio-links {
+text-decoration: none;
 }
 .link-head-text {
 font-weight: 500;
