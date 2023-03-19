@@ -67,17 +67,23 @@ color: #4D5AE5;
 .header-type-contact {
 }
 .header-mail:focus,
-.header-mail:hover{color:  #404bbfE5;}
+.header-mail:hover{color: :#404bbf;}
 .header-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
    color: var(--second-text-color);
 }
 .header-tel:focus,
 .header-tel:hover{
-    color: #4D5AE5;
+    color:#404bbf;
 }
 .header-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 400;
     color: var(--second-text-color);
