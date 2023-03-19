@@ -1,0 +1,216 @@
+body {font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --main-text-color:#2E2F42;
+    --second-text-color:#434455;
+    --third-text-color:#F4F4FD
+}
+.link{
+    text-decoration: none;
+}
+.text-all{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.text-type{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+/**---------------HEADER--------------**/
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-images {
+}
+.header-link:focus,
+.header-link:hover{
+   color: #4D5AE5;
+
+}
+.header-link {
+    font-weight: 500;
+    color: var(--main-text-color);
+}
+.header-item {
+}
+.header-address {
+}
+.header-contacts {
+}
+.header-type-contact {
+}
+.header-mail:focus,
+.header-mail:hover{color: #4D5AE5;}
+.header-mail {
+    font-style: normal;
+    font-weight: 400;
+   color: var(--second-text-color);
+}
+.header-tel:focus,
+.header-tel:hover{
+    color: #4D5AE5;
+}
+.header-tel {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--second-text-color);
+}
+/**---------------FIRST SECTION--------------**/
+.section {
+    background-color: var(--main-text-color);
+}
+.caption-section {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.section-button:focus,
+.section-button:hover{
+color:#404BBF;
+}
+.section-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/**---------------SECTION ADVANTAGES--------------**/
+.section-advantages {
+}
+.advantages-list {
+}
+.advantage-paragraph {
+}
+.advantage-name {
+    font-style: normal;
+    font-weight: 500;
+    color: var(--main-text-color);
+}
+    .advantage-text {
+    color: var(--second-text-color);
+}
+/**---------------SECTION DO--------------**/
+.section-do {
+}
+.section-what-do {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.section-do-list {
+}
+.section-do-item {
+}
+/**---------------SECTION TEAM--------------**/
+.section-team {
+}
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.our-team-list {
+}
+.our-team-part {
+}
+.our-team-name {
+    font-weight: 500;
+    text-align: center;
+    color: var(--main-text-color)
+}
+.our-team-work {
+    text-align: center;
+    color: var(--second-text-color);
+}
+/**---------------FOOTER--------------**/
+.footer{
+    background-color: var(--main-text-color);
+}
+.footer-logo {
+}
+.footer-text {
+    color: var(--third-text-color);
+}
+/**---------------BTN PORTFOLIO--------------**/
+.section-buttons {
+}
+.buttons-list {
+}
+.button-type {
+}
+.button-view {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.button-view:hover,
+.button-view:focus{
+    color:#404BBF; 
+}
+/**---------------INTERFACE PORTFOLIO--------------**/
+.section-interface {
+}
+.interface-list {
+}
+.interface-item {
+}
+.interface-name {
+    color: var(--main-text-color);
+}
+.interface-text {
+    color: var(--second-text-color);
+}
+/**---------------CAR PORTFOLIO--------------**/
+.section-car {
+}
+.car-list {
+}
+.car-item {
+}
+.car-name {
+    color: var(--main-text-color);
+}
+.car-text {
+    color: var(--second-text-color);
+}
+/**---------------INST PORTFOLIO--------------**/
+.section-inst {
+}
+.inst-list {
+}
+.inst-item {
+}
+.inst-name {
+    color: var(--main-text-color);
+}
+.inst-text {
+    color: var(--second-text-color);
+}
