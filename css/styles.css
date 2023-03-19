@@ -137,9 +137,10 @@ background-color: #404BBF
 }
 .section-what-do {
     font-size: 36px;
+    letter-spacing: 0.02em 
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
+   
     text-transform: capitalize;
     color: var(--main-text-color);
 }
@@ -149,7 +150,7 @@ background-color: #404BBF
 }
 /**---------------SECTION TEAM--------------**/
 .section-team {
-   background-color:#F4F4FD;
+   background-color:#FFFFFF;
 }
 .our-team {
     font-size: 36px;
@@ -199,52 +200,50 @@ color: #F4F4FD;
 }
 .buttons-list {
 }
+.secret-btn{
+    visibility:hidden;
+}
 .button-type {
 }
 .button-view {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    cursor: pointer;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: #4d5ae5;
+background-color: #F4F4FD;
 }
 .button-view:hover,
 .button-view:focus{
-    color:#404BBF; 
+    color:#FFFFFF; 
+    background-color: #404BBF;
+
 }
 /**---------------INTERFACE PORTFOLIO--------------**/
-.section-interface {
+.interface{
+
 }
 .interface-list {
 }
-.interface-item {
+.item {
 }
-.interface-name {
-    color: var(--main-text-color);
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
-.interface-text {
-    color: var(--second-text-color);
-}
-.car-item{
 
-}
-.car-name {
-    color: var(--main-text-color);
-}
-.car-text {
-    color: var(--second-text-color);
-}
-.inst-item {
-}
-.inst-name {
-    color: var(--main-text-color);
-}
-.inst-text {
-    color: var(--second-text-color);
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
